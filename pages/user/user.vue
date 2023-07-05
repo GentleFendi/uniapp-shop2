@@ -1,6 +1,6 @@
 <template>
 	<view>
-		Home
+		user
 	</view>
 </template>
 
