@@ -1,7 +1,31 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
         {
-            "path" : "pages/index/index",
+            "path" : "pages/home/home",
+            "style" :                                                                                    
+            {
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/cate/cate",
+            "style" :                                                                                    
+            {
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/cart/cart",
+            "style" :                                                                                    
+            {
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/user",
             "style" :                                                                                    
             {
                 "enablePullDownRefresh": false
@@ -15,5 +39,25 @@
 		"navigationBarBackgroundColor": "#00B26A",
 		"backgroundColor": "#F8F8F8"
 	},
-	"uniIdRouter": {}
+	"uniIdRouter": {},
+	"tabBar": {
+			"list": [
+				{
+					"pagePath": "pages/home/home",
+					"text": "首页"
+				},
+				{
+					"pagePath": "pages/cate/cate",
+					"text": "分类"
+				},
+				{
+					"pagePath": "pages/cart/cart",
+					"text": "购物车"
+				},
+				{
+					"pagePath": "pages/user/user",
+					"text": "用户"
+				}
+			]
+		}
 }
