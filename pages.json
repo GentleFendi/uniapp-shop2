@@ -33,6 +33,30 @@
             
         }
     ],
+	"subPackages": [
+		{
+			"root": "subpkg",
+			"pages": [
+				{
+                    "path" : "goods_detail/goods_detail",
+                    "style" :                                                                                    
+					{
+						"enablePullDownRefresh": false
+					}
+                
+                }
+                ,{
+                    "path" : "goods_list/goods_list",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+		}
+	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "Fendi 优选",
@@ -41,23 +65,23 @@
 	},
 	"uniIdRouter": {},
 	"tabBar": {
-			"list": [
-				{
-					"pagePath": "pages/home/home",
-					"text": "首页"
-				},
-				{
-					"pagePath": "pages/cate/cate",
-					"text": "分类"
-				},
-				{
-					"pagePath": "pages/cart/cart",
-					"text": "购物车"
-				},
-				{
-					"pagePath": "pages/user/user",
-					"text": "用户"
-				}
-			]
-		}
+		"list": [
+			{
+				"pagePath": "pages/home/home",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/cate/cate",
+				"text": "分类"
+			},
+			{
+				"pagePath": "pages/cart/cart",
+				"text": "购物车"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"text": "用户"
+			}
+		]
+	}
 }
