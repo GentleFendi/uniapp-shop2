@@ -1,0 +1,23 @@
+{
+  "name": "uniapp-shop2",
+  "version": "1.0.0",
+  "description": "---\r title: uni-shop-2,\r author: Fendi,\r date: 2023/7/2,\r details: 'A starter uniapp development project, for reference only.'\r ---",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GentleFendi/uniapp-shop2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GentleFendi/uniapp-shop2/issues"
+  },
+  "homepage": "https://github.com/GentleFendi/uniapp-shop2#readme",
+  "dependencies": {
+    "@escook/request-miniprogram": "^0.2.1"
+  }
+}
