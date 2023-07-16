@@ -8,8 +8,9 @@
 	export default {
 		data() {
 			return {
-				
-			};
+			}
+		},
+		onLoad(){
 		}
 	}
 </script>
