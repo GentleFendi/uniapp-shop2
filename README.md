@@ -293,5 +293,31 @@ async getSwiperList(){
 }
 ```
 
+---
+
+## 优化scroll
+
+> 在小程序中经常用到`<scroll>`，使用`<scroll>`做一二级列表分类时，用户滑动后切换时会导致滚动位置不会回到顶部。
+
+```html
+<scroll :scroll-top="scrollTop"></scroll>					// 动态绑定 scrollTop 值
+```
+
+```js
+data(){
+    return {
+        scrollTop: 0										// 初始为 0
+	}
+}
+```
+
+```js
+...(){														// 用户点击事件触发该函数
+    this.scrollTop = this.scrollTop === 0 ? 1 : 0
+}
+```
+
+---
+
 
 

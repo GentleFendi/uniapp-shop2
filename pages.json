@@ -9,14 +9,6 @@
             
         }
         ,{
-            "path" : "pages/cate/cate",
-            "style" :                                                                                    
-            {
-                "enablePullDownRefresh": false
-            }
-            
-        }
-        ,{
             "path" : "pages/cart/cart",
             "style" :                                                                                    
             {
@@ -31,7 +23,14 @@
                 "enablePullDownRefresh": false
             }
             
-        }
+        },
+		{
+			"path": "pages/cate/cate",
+			"style":
+			{
+				"enablePullDownRefresh": false
+			}
+		}
     ],
 	"subPackages": [
 		{
