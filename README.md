@@ -9,19 +9,6 @@ details: 'A starter uniapp development project, for reference only.'
 
 ---
 
-## 项目结构
-
-| 文件   | 分类 | 介绍         |
-| ------ | ---- | ------------ |
-| `Home` | 页面 | 主页面       |
-| `Cate` | 页面 | 分类页面     |
-| `Cart` | 页面 | 购物车页面   |
-| `User` | 页面 | 用户信息页面 |
-|        |      |              |
-|        |      |              |
-
----
-
 ## 项目 API
 
 **项目域名：**
